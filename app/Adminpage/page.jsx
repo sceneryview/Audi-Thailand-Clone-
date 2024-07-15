@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 
-export default function page() {
+export default function Page() {
   const [version, setVersion] = useState([]);
   const [main, setMain] = useState("");
   const [text, setText] = useState("");
