@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa6";
 import { FaChevronUp } from "react-icons/fa6";
 
-export default function page() {
+export default function Page() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="bg-white w-full">
